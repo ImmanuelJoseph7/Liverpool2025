@@ -51,3 +51,4 @@ plt.legend()
 plt.grid(True)
 plt.tight_layout()
 plt.show()
+# check the Elo ratings for Liverpool and Manchester United
