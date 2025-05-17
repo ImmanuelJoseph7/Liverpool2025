@@ -11,6 +11,7 @@ elo_df = pd.read_csv(elo_url)
 
 print(matches_df.columns)
 
+
 # Filter Liverpool matches from 2015 to 2025
 liverpool_matches = matches_df[
     ((matches_df['HomeTeam'] == 'Liverpool') | (matches_df['AwayTeam'] == 'Liverpool')) &
